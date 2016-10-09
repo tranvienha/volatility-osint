@@ -49,11 +49,15 @@ OSINT plug-in uses yarascan plug-in to extract urls from memory then submits the
 
 python vol.py –conf-file=./osint.conf -f zeus2x4.vmem osint
 
+![Alt text](/osint_zeus2x4_domain.png?raw=true)
+
 #### Submit ips
 
 For ips, yarascan plug-in is not used because of too much false positive. OSINT uses connscan/netscan instead.
 
 python vol.py –conf-file=./osint.conf -f zeus2x4.vmem osint –check-type=ip
+
+![Alt text](/osint_zeus2x4_ip.png?raw=true)
 
 #### Output Interpretation
 
