@@ -11,6 +11,7 @@ In order to
 - avoid to leak information
 - avoid to expose our identity
 - bypass request rate limitation of some intellignce platforms
+
 We decide that
 - Dumped files are not summited, only urls & ips
 - Requests are sent through Tor proxy ( for Bluecoat & VirusTotal )
